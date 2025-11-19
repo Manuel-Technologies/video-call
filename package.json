@@ -1,15 +1,24 @@
 {
   "name": "webrtc-signaling-server",
   "version": "1.0.0",
-  "description": "WebSocket signaling server for WebRTC video chat",
+  "description": "A simple, robust WebRTC signaling server using WebSockets",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "ws": "^8.18.0"
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
   },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "keywords": [
+    "webrtc",
+    "websocket",
+    "signaling",
+    "video-call"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }
